@@ -1,4 +1,7 @@
-# cs210-assignment05
+# CS210 Assignment 5
+Author: Matthew Woo
+
+Date: October 11, 2026
 ## AI Disclosure
 I used ChatGPT to learn how to implement each style of stack, queue, and deque.
 I also used ChatGPT to help me write out test cases.
