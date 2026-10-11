@@ -668,3 +668,8 @@ Array Empty: true
 Deque is empty!
 Deque is empty!
 ```
+
+## Design decision
+I implemented array and linked-list style stack, queue, and deque. I also tested different operations and empty cases.
+
+## Explanation, time/space complexity discussion
