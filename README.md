@@ -673,3 +673,14 @@ Deque is empty!
 I implemented array and linked-list style stack, queue, and deque. I also tested different operations and empty cases.
 
 ## Explanation, time/space complexity discussion
+LinkedStack is O(1) because Push() and Pop() only change the top pointer; it doesn't need to go through the whole linked list. Peek() doesn't change anything.
+
+ArrayStack is O(1) because Push() and Pop() only increase or decrease the top index and access one array element. Peek() doesn't change anything.
+
+LinkedQueue is O(1) because Enqueue() and Dequeue() we use head and tail pointers to add or remove nodes directly without traversing the list.
+
+ArrayQueue are both O(1) and O(n). Enqueue is O(1) because it only adds an item at the end of the array. Dequeue() is O(n) because it removes the top element and shifts the whole queue left by 1. 
+
+LinkedDeque is O(1). It uses a doubly linked list to store head, tail, prev, and next pointers. It can easily to add or remove items without traversing the list.
+
+ArrayDeque are O(1) and O(n). PushBack() and PopBack() are O(1) because it only changes the last element of the array. PushFront() and PopFront() are O(n) because they need to shift the elements left or right by 1 when pushing and popping.
