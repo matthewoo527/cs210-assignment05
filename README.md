@@ -4,6 +4,16 @@
  * I used ChatGPT to learn how to implement each style of stack, queue, and deque.
  * I also used ChatGPT to help me write out test cases.
 ```
+## Required Implementations
+1. Implement a stack using an array-based representation.
+2. Implement a stack using your own linked-list representation.
+3. Implement a queue using an array-based representation.
+4. Implement a queue using your own linked-list representation.
+5. Implement a deque using an array-based representation.
+6. Implement a deque using your own linked-list representation.
+7. For each structure, demonstrate insertion and removal operations, empty handling, and a sequence of at least 10 operations.
+8. Explain which operations are O(1) and which can become O(n) in your particular design.
+
 ## Code
 ```cpp
 #include <iostream>
