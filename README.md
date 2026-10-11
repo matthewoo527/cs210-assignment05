@@ -1,9 +1,7 @@
 # cs210-assignment05
 ## AI Disclosure
-```
- * I used ChatGPT to learn how to implement each style of stack, queue, and deque.
- * I also used ChatGPT to help me write out test cases.
-```
+I used ChatGPT to learn how to implement each style of stack, queue, and deque.
+I also used ChatGPT to help me write out test cases.
 ## Required Implementations
 1. Implement a stack using an array-based representation.
 2. Implement a stack using your own linked-list representation.
